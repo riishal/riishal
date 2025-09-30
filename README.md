@@ -22,13 +22,11 @@ Hi! I'm **Rishal**, a passionate developer from Chennai, India 🇮🇳, dedicat
 
 ```yaml
 name: Rishal Muhammed
-location: Chennai, India
 role: Mobile & Web Developer
 passion: Turning ideas into reality
 current_focus: Building scalable Flutter apps
 languages: [Dart, JavaScript, Java, C]
 interests: [App Development, UI/UX, Clean Code]
-fuel: Coffee ☕ + Lo-fi Beats 🎵
 ```
 
 **🌟 Passion**: Transforming ideas into intuitive digital solutions  
