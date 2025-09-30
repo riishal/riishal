@@ -106,13 +106,13 @@ Hi! I'm **Rishal**, a passionate developer from Chennai, India 🇮🇳, dedicat
 
 <div align="center">
 
-*Replace the placeholders below with your actual project repositories.*
+**🚀 Note: Replace the example projects below with your actual repositories to showcase your work. Use the format: `riishal/your-repo-name`. Once updated, the cards will display live stats!**
 
-<a href="https://github.com/riishal/your-project-1">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=riishal&repo=your-project-1&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7F3FBF" />
+<a href="https://github.com/riishal/flutter-weather-app">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=riishal&repo=flutter-weather-app&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7F3FBF" />
 </a>
-<a href="https://github.com/riishal/your-project-2">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=riishal&repo=your-project-2&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7F3FBF" />
+<a href="https://github.com/riishal/todo-list-web">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=riishal&repo=todo-list-web&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7F3FBF" />
 </a>
 
 </div>
