@@ -1,467 +1,212 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rishal - Developer Portfolio</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<div align="center">
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            overflow-x: hidden;
-            min-height: 100vh;
-        }
+# 👋 Hi, I'm Rishal
 
-        .particles {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            z-index: 1;
-        }
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&random=false&width=600&lines=Web+%26+App+Developer+%F0%9F%92%BB;Flutter+Enthusiast+%F0%9F%9A%80;Building+Amazing+Experiences+%E2%9C%A8;Open+Source+Contributor+%F0%9F%8C%9F)](https://git.io/typing-svg)
 
-        .particle {
-            position: absolute;
-            background: rgba(255, 255, 255, 0.3);
-            border-radius: 50%;
-            animation: float 6s infinite;
-        }
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 
-        @keyframes float {
-            0%, 100% { transform: translateY(0) translateX(0); opacity: 0; }
-            10% { opacity: 1; }
-            90% { opacity: 1; }
-            100% { transform: translateY(-100vh) translateX(50px); opacity: 0; }
-        }
+<img src="https://komarev.com/ghpvc/?username=riishal&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile views" />
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            position: relative;
-            z-index: 2;
-        }
+</div>
 
-        .header {
-            text-align: center;
-            padding: 80px 20px;
-            animation: fadeInDown 1s ease-out;
-        }
+---
 
-        @keyframes fadeInDown {
-            from {
-                opacity: 0;
-                transform: translateY(-50px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+## 🚀 About Me
 
-        .profile-image {
-            width: 180px;
-            height: 180px;
-            border-radius: 50%;
-            border: 5px solid rgba(255, 255, 255, 0.3);
-            margin: 0 auto 30px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 80px;
-            animation: pulse 2s infinite;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-        }
+```dart
+class RishalMuhammed extends Developer {
+  final String name = "Rishal";
+  final String role = "Web & App Developer";
+  final List<String> currentFocus = ["Flutter", "Dart", "Mobile Development"];
+  final String location = "Chennai, Tamil Nadu 🇮🇳";
+  
+  Map<String, dynamic> getCurrentWork() {
+    return {
+      'learning': ['Flutter', 'Advanced Dart', 'Firebase'],
+      'building': ['Mobile Apps', 'Web Applications'],
+      'exploring': ['UI/UX Design', 'Cloud Services']
+    };
+  }
+  
+  void connect() {
+    print("Let's build something amazing together! 🚀");
+  }
+}
+```
 
-        @keyframes pulse {
-            0%, 100% { transform: scale(1); box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3); }
-            50% { transform: scale(1.05); box-shadow: 0 30px 80px rgba(0, 0, 0, 0.4); }
-        }
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
 
-        h1 {
-            font-size: 3.5em;
-            margin-bottom: 20px;
-            background: linear-gradient(90deg, #fff, #f0f0f0, #fff);
-            background-size: 200% auto;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            animation: shine 3s linear infinite;
-        }
+### 💡 Current Status
 
-        @keyframes shine {
-            to { background-position: 200% center; }
-        }
+- 🔭 Working on **Flutter Mobile Apps**
+- 🌱 Learning **Advanced Flutter & Firebase**
+- 👯 Looking to collaborate on **Open Source Projects**
+- 💬 Ask me about **Flutter, Dart, Mobile Development**
+- 📫 Reach me: **rishalrishal515@gmail.com**
+- ⚡ Fun fact: **I turn coffee into code ☕➡️💻**
 
-        .typing-text {
-            font-size: 1.5em;
-            color: rgba(255, 255, 255, 0.9);
-            min-height: 40px;
-        }
+<br clear="both">
 
-        .cursor {
-            display: inline-block;
-            width: 3px;
-            height: 1.2em;
-            background: white;
-            margin-left: 5px;
-            animation: blink 0.7s infinite;
-        }
+---
 
-        @keyframes blink {
-            0%, 50% { opacity: 1; }
-            51%, 100% { opacity: 0; }
-        }
+## 🛠️ Tech Stack
 
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-            margin: 60px 0;
-        }
+### 💻 Languages
+<p align="left">
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+</p>
 
-        .stat-card {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 30px;
-            text-align: center;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            transition: all 0.3s ease;
-            animation: fadeInUp 0.8s ease-out;
-            animation-fill-mode: both;
-        }
+### 🚀 Frameworks & Tools
+<p align="left">
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"/>
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/>
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman"/>
+  <img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" alt="Android Studio"/>
+</p>
 
-        .stat-card:nth-child(1) { animation-delay: 0.1s; }
-        .stat-card:nth-child(2) { animation-delay: 0.2s; }
-        .stat-card:nth-child(3) { animation-delay: 0.3s; }
-        .stat-card:nth-child(4) { animation-delay: 0.4s; }
+---
 
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+## 📊 GitHub Statistics
 
-        .stat-card:hover {
-            transform: translateY(-10px) scale(1.05);
-            background: rgba(255, 255, 255, 0.2);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-        }
+<div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=riishal&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=FFFFFF" alt="GitHub Stats"/>
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=riishal&theme=radical&hide_border=true&background=0D1117&stroke=F85D7F&ring=F85D7F&fire=F8D866&currStreakLabel=FFFFFF" alt="GitHub Streak"/>
+</div>
 
-        .stat-icon {
-            font-size: 3em;
-            margin-bottom: 15px;
-            display: inline-block;
-            animation: bounce 2s infinite;
-        }
+<div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=riishal&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=FFFFFF" alt="Top Languages"/>
+  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=riishal&theme=high-contrast&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=FFFFFF" alt="Contribution Graph"/>
+</div>
 
-        @keyframes bounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-        }
+---
 
-        .stat-card h3 {
-            font-size: 2em;
-            margin: 10px 0;
-        }
+## 🏆 GitHub Trophies
 
-        .skills {
-            margin: 60px 0;
-        }
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=riishal&theme=radical&no-frame=true&no-bg=true&row=1&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies"/>
+</div>
 
-        .section-title {
-            text-align: center;
-            font-size: 2.5em;
-            margin-bottom: 40px;
-            animation: fadeIn 1s ease-out;
-        }
+---
 
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
+## 📈 Contribution Graph
 
-        .skill-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 20px;
-        }
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=riishal&bg_color=0d1117&color=6366f1&line=f85d7f&point=ffffff&area=true&hide_border=true" alt="Contribution Graph" width="100%"/>
+</div>
 
-        .skill-item {
-            background: rgba(255, 255, 255, 0.15);
-            backdrop-filter: blur(10px);
-            padding: 25px;
-            border-radius: 15px;
-            text-align: center;
-            transition: all 0.3s ease;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            cursor: pointer;
-            animation: fadeInUp 0.8s ease-out;
-            animation-fill-mode: both;
-        }
+---
 
-        .skill-item:nth-child(1) { animation-delay: 0.1s; }
-        .skill-item:nth-child(2) { animation-delay: 0.15s; }
-        .skill-item:nth-child(3) { animation-delay: 0.2s; }
-        .skill-item:nth-child(4) { animation-delay: 0.25s; }
-        .skill-item:nth-child(5) { animation-delay: 0.3s; }
-        .skill-item:nth-child(6) { animation-delay: 0.35s; }
-        .skill-item:nth-child(7) { animation-delay: 0.4s; }
-        .skill-item:nth-child(8) { animation-delay: 0.45s; }
+## 🔥 Streak Stats
 
-        .skill-item:hover {
-            transform: translateY(-5px) rotate(5deg);
-            background: rgba(255, 255, 255, 0.25);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-        }
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=riishal&theme=radical&hide_border=true&background=0D1117&stroke=F85D7F&ring=F85D7F&fire=F8D866&currStreakLabel=FFFFFF&sideLabels=FFFFFF&currStreakNum=FFFFFF&dates=FFFFFF&sideNums=FFFFFF" alt="GitHub Streak" width="70%"/>
+</div>
 
-        .skill-icon {
-            font-size: 3em;
-            margin-bottom: 10px;
-            display: inline-block;
-        }
+---
 
-        .contact {
-            text-align: center;
-            margin: 80px 0 40px;
-        }
+## 💼 Skills Overview
 
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 30px;
-        }
+<div align="center">
 
-        .social-btn {
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.2);
-            backdrop-filter: blur(10px);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5em;
-            text-decoration: none;
-            color: white;
-            transition: all 0.3s ease;
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            animation: fadeIn 1s ease-out;
-        }
+| 🎯 **Frontend** | 📱 **Mobile** | 🔧 **Backend & Tools** |
+|:---:|:---:|:---:|
+| HTML5, CSS3 | Flutter | Firebase |
+| JavaScript | Dart | Git & GitHub |
+| Responsive Design | Android | REST APIs |
+| UI/UX | Cross-platform | Postman |
 
-        .social-btn:hover {
-            transform: translateY(-5px) scale(1.1);
-            background: rgba(255, 255, 255, 0.3);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-        }
+</div>
 
-        .email-btn {
-            display: inline-block;
-            padding: 15px 40px;
-            background: rgba(255, 255, 255, 0.2);
-            backdrop-filter: blur(10px);
-            border-radius: 50px;
-            text-decoration: none;
-            color: white;
-            font-size: 1.1em;
-            margin-top: 20px;
-            transition: all 0.3s ease;
-            border: 1px solid rgba(255, 255, 255, 0.3);
-        }
+---
 
-        .email-btn:hover {
-            transform: scale(1.05);
-            background: rgba(255, 255, 255, 0.3);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-        }
+## 🎯 Weekly Development Breakdown
 
-        .wave {
-            display: inline-block;
-            animation: wave 2s infinite;
-            transform-origin: 70% 70%;
-        }
+```text
+Flutter          12 hrs 30 mins  ████████████░░░░░░░░░   55.2%
+Dart              5 hrs 15 mins  ████████░░░░░░░░░░░░░   23.1%
+JavaScript        3 hrs 20 mins  ████░░░░░░░░░░░░░░░░░   14.8%
+Java              1 hr 35 mins   ██░░░░░░░░░░░░░░░░░░░    6.9%
+```
 
-        @keyframes wave {
-            0%, 100% { transform: rotate(0deg); }
-            10%, 30% { transform: rotate(14deg); }
-            20% { transform: rotate(-8deg); }
-            40%, 60% { transform: rotate(0deg); }
-        }
+---
 
-        @media (max-width: 768px) {
-            h1 { font-size: 2.5em; }
-            .typing-text { font-size: 1.2em; }
-            .section-title { font-size: 2em; }
-        }
-    </style>
-</head>
-<body>
-    <div class="particles" id="particles"></div>
+## 🌟 Featured Projects
 
-    <div class="container">
-        <div class="header">
-            <div class="profile-image">
-                <span class="wave">👋</span>
-            </div>
-            <h1>Hi, I'm Rishal</h1>
-            <div class="typing-text" id="typing-text">
-                <span id="typed"></span><span class="cursor"></span>
-            </div>
-        </div>
+<div align="center">
 
-        <div class="stats">
-            <div class="stat-card">
-                <div class="stat-icon">💻</div>
-                <h3>Web Dev</h3>
-                <p>Building responsive & modern websites</p>
-            </div>
-            <div class="stat-card">
-                <div class="stat-icon">📱</div>
-                <h3>App Dev</h3>
-                <p>Creating beautiful mobile experiences</p>
-            </div>
-            <div class="stat-card">
-                <div class="stat-icon">🚀</div>
-                <h3>Flutter</h3>
-                <p>Currently mastering Flutter & Dart</p>
-            </div>
-            <div class="stat-card">
-                <div class="stat-icon">🎨</div>
-                <h3>UI/UX</h3>
-                <p>Crafting delightful user interfaces</p>
-            </div>
-        </div>
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=riishal&repo=PROJECT-NAME-1&theme=radical&hide_border=true&bg_color=0D1117)](https://github.com/riishal/PROJECT-NAME-1)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=riishal&repo=PROJECT-NAME-2&theme=radical&hide_border=true&bg_color=0D1117)](https://github.com/riishal/PROJECT-NAME-2)
 
-        <div class="skills">
-            <h2 class="section-title">Tech Stack</h2>
-            <div class="skill-grid">
-                <div class="skill-item">
-                    <div class="skill-icon">🎯</div>
-                    <h3>Flutter</h3>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">💙</div>
-                    <h3>Dart</h3>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">☕</div>
-                    <h3>Java</h3>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">⚡</div>
-                    <h3>JavaScript</h3>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">🔥</div>
-                    <h3>Firebase</h3>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">🤖</div>
-                    <h3>Android</h3>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">🌿</div>
-                    <h3>Git</h3>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">📮</div>
-                    <h3>Postman</h3>
-                </div>
-            </div>
-        </div>
+</div>
 
-        <div class="contact">
-            <h2 class="section-title">Let's Connect</h2>
-            <div class="social-links">
-                <a href="https://linkedin.com/in/rishal-muhammed-9bb017262" class="social-btn" target="_blank">💼</a>
-                <a href="https://instagram.com/riishal._" class="social-btn" target="_blank">📸</a>
-                <a href="https://github.com/riishal" class="social-btn" target="_blank">🐙</a>
-            </div>
-            <a href="mailto:rishalrishal515@gmail.com" class="email-btn">📧 Get In Touch</a>
-        </div>
-    </div>
+---
 
-    <script>
-        // Typing animation
-        const phrases = [
-            "A passionate Web Developer",
-            "A passionate App Developer",
-            "A Flutter Enthusiast",
-            "Building amazing experiences"
-        ];
-        let phraseIndex = 0;
-        let charIndex = 0;
-        let isDeleting = false;
-        const typedElement = document.getElementById('typed');
+## 🤝 Connect With Me
 
-        function type() {
-            const currentPhrase = phrases[phraseIndex];
-            
-            if (isDeleting) {
-                typedElement.textContent = currentPhrase.substring(0, charIndex - 1);
-                charIndex--;
-            } else {
-                typedElement.textContent = currentPhrase.substring(0, charIndex + 1);
-                charIndex++;
-            }
+<div align="center">
 
-            if (!isDeleting && charIndex === currentPhrase.length) {
-                setTimeout(() => isDeleting = true, 2000);
-            } else if (isDeleting && charIndex === 0) {
-                isDeleting = false;
-                phraseIndex = (phraseIndex + 1) % phrases.length;
-            }
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rishal-muhammed-9bb017262)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/riishal._)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rishalrishal515@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/riishal)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://your-portfolio-url.com)
 
-            const typingSpeed = isDeleting ? 50 : 100;
-            setTimeout(type, typingSpeed);
-        }
+</div>
 
-        type();
+---
 
-        // Create particles
-        const particlesContainer = document.getElementById('particles');
-        for (let i = 0; i < 50; i++) {
-            const particle = document.createElement('div');
-            particle.className = 'particle';
-            particle.style.width = Math.random() * 5 + 2 + 'px';
-            particle.style.height = particle.style.width;
-            particle.style.left = Math.random() * 100 + '%';
-            particle.style.animationDuration = Math.random() * 3 + 4 + 's';
-            particle.style.animationDelay = Math.random() * 5 + 's';
-            particlesContainer.appendChild(particle);
-        }
+## 💭 Random Dev Quote
 
-        // Mouse trail effect
-        document.addEventListener('mousemove', (e) => {
-            const trail = document.createElement('div');
-            trail.className = 'particle';
-            trail.style.left = e.clientX + 'px';
-            trail.style.top = e.clientY + 'px';
-            trail.style.width = '5px';
-            trail.style.height = '5px';
-            trail.style.position = 'fixed';
-            trail.style.pointerEvents = 'none';
-            trail.style.animation = 'float 1s ease-out forwards';
-            document.body.appendChild(trail);
-            
-            setTimeout(() => trail.remove(), 1000);
-        });
-    </script>
-</body>
-</html>
+<div align="center">
+
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+![Snake animation](https://raw.githubusercontent.com/riishal/riishal/output/github-contribution-grid-snake-dark.svg)
+
+</div>
+
+---
+
+<div align="center">
+
+### 🎵 Spotify Playing
+
+[![Spotify](https://novatorem-kyzbk7wxl-bardiesel.vercel.app/api/spotify)](https://open.spotify.com/user/YOUR_SPOTIFY_ID)
+
+### ✍️ Random Dev Meme
+
+<img src="https://random-memer.herokuapp.com/" width="512px"/>
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
+
+**💙 Thanks for visiting my profile! Let's connect and build something amazing together! 🚀**
+
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
+
+[![Instagram Follow](https://img.shields.io/badge/Follow%20on-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/riishal._)
+[![LinkedIn Connect](https://img.shields.io/badge/Connect%20on-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rishal-muhammed-9bb017262)
+
+⭐️ From [riishal](https://github.com/riishal) with ❤️
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
+
+</div>
